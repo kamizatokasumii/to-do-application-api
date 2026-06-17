@@ -25,6 +25,8 @@ Udemy講座「Echo/Go + Reactで始めるモダンWebアプリケーション開
 - API設計
 - データベース設計
 - クリーンアーキテクチャ
+ <img width="960" height="540" alt="clean architecture" src="https://github.com/user-attachments/assets/de485de5-9f9f-4800-9938-7deabb0e2f5c" />
+
 
 ## 開発環境
 
