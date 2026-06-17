@@ -1,31 +1,72 @@
 # to-do-application-api
-Echo/Go + Reactで始めるモダンWebアプリケーション開発 (Udemy)
+Udemy講座「Echo/Go + Reactで始めるモダンWebアプリケーション開発」の内容をベースに、REST API開発、クリーンアーキテクチャ、テスト、CI/CD、デプロイまでを学習することを目的としています。
 
 # 使用している主な技術
-Go(Gin), React
-Test Suite (Unit test) / GitHub Actions
-シナリオテスト（E2E）
-デプロイ(Playwright)
-CI/CD パイプライン
-claude frare
-API設計
-DB設計
+### Backend
+- Go
+- Echo
 
-# プロジェクトの概要
-Go言語のWeb フレームワークである Echoを使用した REST APIの実装方法について学習するためのリポジトリ。
-また、クリーンアーキテクチャについて概念を理解し、具体的な実装方法についても学習します。
-フロントエンド(React)との連携を行いDeployまで行います。
+### Frontend
+- React
+- TypeScript
 
-# 必要な環境変数やコマンド一覧
-Node.js(v24.16.0)をローカルにダウンロード（https://nodejs.org/ja/download）
+### Testing
+- Unit Test
+- E2E Test
+- Playwright
 
-Database構築
-・go mod tidy
-・go mod init
-・GO_ENV=dev go run migrate/migrate.go
+### CI/CD
+- GitHub Actions
 
-# ディレクトリ構成
+### AI Tools
+- Claude
 
-# 開発環境の構築方法
+### Design
+- API設計
+- データベース設計
+- クリーンアーキテクチャ
 
-# トラブルシューティング
+## 開発環境
+
+### 必要ソフトウェア
+
+- Node.js v24.16.0 以上
+- Go
+- MySQL
+
+Node.js ダウンロード
+
+https://nodejs.org/ja/download
+
+## セットアップ
+### リポジトリのクローン
+
+```bash
+git clone <repository-url>
+cd to-do-application-api
+```
+
+### Goモジュールのインストール
+
+```bash
+go mod tidy
+```
+
+### データベース構築
+
+```bash
+GO_ENV=dev go run migrate/migrate.go
+```
+
+---
+
+## アプリケーション起動
+
+### Backend
+
+```bash
+go run main.go
+```
+
+# 参考資料
+https://www.udemy.com/course/echo-go-react-restapi/learn/lecture/37108418#overview
